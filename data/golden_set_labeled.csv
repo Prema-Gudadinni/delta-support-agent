@@ -1,0 +1,217 @@
+tweet_id,text,in_response_to_tweet_id,your_intent_label,should_escalate (yes/no),escalation_reason,notes
+312452,@Delta Thank you,312453.0,praise_or_noise,no,,
+2610070,@Delta Still waiting on a hot plane 4 hours and 16 minutes later......,2610069.0,flight_delay_status,no,, Annoyed but not yet a crisis 
+864657,Heading home - tnx @Delta - @123223 @153480 @1556 https://t.co/Ypr8qBKah3,,praise_or_noise,no,," Ambiguous multi-mention tweet, possibly not primarily addressed to Delta"
+257289,"@delta bag tags off others bags, only difference between me and the others behind me was that I was a little white pregnant girl 3/3",,service_complaint,yes,Possible discrimination complaint (differential treatment implied) - SAFETY-NET - REVIEW CAREFULLY,
+1718863,@Delta @520386 Actually that's not true.  How do I know: I had a 12 hour delay bc no airplane and no compensation. Oops.,1718857.0,refund_compensation,no,,
+359591,@Delta If Iâ€™m trying to check in to connecting flight and it says unable doni just need to do it when I get to airport?,359590.0,checkin_seat_upgrade,no,,
+153927,"@Delta So I donâ€™t get the MQDs because I spent my money on a ticket for another person, but I can transfer my Skymiles to another person from tickets purchased under my name. See, thatâ€™s confusing.",153925.0,loyalty_miles_status,no,,
+1943296,"@delta 50 minutes and counting at Honolulu baggage claim. Oh yeah, yellow tags are coming out last. Please assist!!",,baggage_lost_item,no,,
+840931,@Delta how do you loose my bag on a one-way flight ðŸ˜© it never even made it onto my plane...#whereismybag https://t.co/WRHO6sMZzR,,baggage_lost_item,no,,
+2653492,"When did @Delta stop/quit giving beverages on domestic flights ðŸ˜”. No water, juice, coffee nothing even those delta cookies tjo!",,service_complaint,no,,
+2046569,@Delta why canâ€™t I upgrade my seat to comfort + when there are still seats available in comfort +?,,checkin_seat_upgrade,no,,
+1688754,"@Delta Hi, is it possible to buy an award ticket with Flying Blue miles on your website? Skymiles seems to be the only option. Thank you.",,loyalty_miles_status,no,,
+529252,Last international flight for 2017. BRU-JFK with @delta using the last of my diamond status ðŸ˜­ #frequentflyer #travel https://t.co/JmdQHq6VnW,,praise_or_noise,no,, Celebratory/nostalgic tweet
+2567306,"@delta my flight was listed as terminal 2 on my app, and it was actually in the Tom Bradley Int. Terminal 4 at LAX. If you list flighte in the wrong terminals I bet  people  miss their flights",,service_complaint,no,, Wrong terminal listed in app - operational/app accuracy complaint
+1711516,Thanks @Delta - the on again/off again status of DL 4761 allowed me a lovely run to the gate....,,flight_delay_status,no,, Sarcastic thanks about on-again/off-again delay status
+1194072,@Delta The effect is I might be running to make a connection instead of strolling.,1194071.0,rebooking_connection,no,," Continuation - connection risk due to delay, not yet critical"
+2072521,"@Delta if miss connection b/c of maintenance issue, will you pay for hotel?",,refund_compensation,no,, Hypothetical question about hotel comp for missed connection due to maintenance
+656730,"@AmericanAir I think itâ€™s time to look for a new airline credit card if this is how youâ€™re going to treat your members. What do you think? @116450 @Delta @AlaskaAir do you all pull this crap of charging extra for aisle/window seats? If not, looking for a new customer?",656733.0,service_complaint,no,, Primarily addressed to AmericanAir; Delta only tagged - possible off-topic/multi-brand tweet
+102256,@Delta I have a miles question.  I just bought 2 tickets with miles and cash.  Does the cash go toward my MQDs?,,loyalty_miles_status,no,,
+1953182,@Delta The gate agents did not even think about checking passenger status for boarding!!!!!,,service_complaint,no,, Gate agents not checking boarding status
+2401852,Thank you @delta for picking me up at the footbridge in a #porsche and driving me to myâ€¦ https://t.co/181Qts1X0Q,,praise_or_noise,no,,
+2600419,@Delta hello! When booking just now on the fly Delta app I pressed purchase &amp; got a message that it couldnâ€™t connect to app &amp; to try again later. Was just about to press confirm on rebooking via desktop when I got an email with confirmation. Can you check that weâ€™re good to go?,,general_policy_info,no,,  Booking/rebooking confirmation status check
+1153993,@Delta I am keeping my eye on the app for updates,1153994.0,praise_or_noise,no,,"  Non-actionable follow-up/continuation, no new ask"
+1013102,"My worst nightmare has come true: Two babies in front of me and snotty mcsnorterson to my left. Thanks, @Delta.",,service_complaint,no,,"  Venting about seatmates, not really Delta's fault - borderline whether this is even a real complaint"
+1644749,@Delta How long does it usually take to do a name change via that online service? I have a flight in 7 days and want to add my skymiles to it.,1644747.0,general_policy_info,no,,"  Name change process question, tangential to skymiles"
+2780902,@Delta Reasons why I have a delta sky miles credit card ðŸ‘ðŸ¼#bestairlineinthesky,2780903.0,praise_or_noise,no,, 
+1023114,@Delta I did and they became even more rude and escalated the situation based on the wrong information I was given in #ATL Iâ€™m done with @Delta,1023113.0,service_complaint,yes,Escalating rudeness after being given wrong info; customer explicitly ending relationship, 
+2283673,"@Delta Thanks! Flight was great! Missed our connection by the slimmest of margins, but everyone was very helpful in trying to make it work.",2283672.0,praise_or_noise,no,,  Positive despite missed connection
+714278,@delta How can I contact the Diamond Medallion desk in-flight?,,loyalty_miles_status,no,, 
+2848442,@Delta Still doesn't make it any less ludicrous.  Was flying from SYR to ATL to AUS - and wanted to change to SYR to AUS (still flying through ATL) - no difference to @Delta- just money grubbin.,2848445.0,service_complaint,no,,  Change fee policy complaint
+413156,"@Delta is the worst.  Hey call this leg room, and of course too cheap to turn on the AC while we board the plane.  #worstairline ever!!! https://t.co/T0zeApEWCN",,service_complaint,no,, 
+2785172,@Delta When will my 15k Medallion Bonus Miles reflect on my account?,,loyalty_miles_status,no,, 
+1416149,@Delta u knew this flight was going to be delayed &amp; u just bouncing us around from gate to gate until thereâ€™s no gates left... #neverdelta,,flight_delay_status,no,,  Gate-bouncing during delay complaint
+761362,".@Delta Hi, can I have someone please assist me. Thanks!",,general_policy_info,no,," context-free fragment, no specifics, can't determine actual need without seeing rest of thread."
+1476651,@Delta I did contact them and they said I cannot use my skymiles for that particular trip. Which I do not know why,1476650.0,loyalty_miles_status,no,, 
+2698310,NEVER FLYING @Delta again!!! Worst experience I have ever had!!!,,service_complaint,no,,"  Strong negative sentiment/churn threat, borderline escalate call - REVIEW"
+2872908,".@Delta doesn't let you get on an earlier flight even if there are empty seats right before departure (unless you pay 75 DOLLARS!!!) and won't let you sit in their super elite ""comfort +"" seats even if they are empty. I miss @SouthwestAir !",,service_complaint,no,,  Policy complaint about upgrade/earlier-flight access
+1202935,@Delta DL2441 is the flight that is delayed.,,flight_delay_status,no,,"  Fragment/reference, minimal context"
+2522765,"@Delta My last fights have shown ""still processing - compete in 24 hours"" in SkyMiles for the last two days.  They'll make the difference for gold status for my next flight tomorrow.  Any chance you could speed up the processing?",,loyalty_miles_status,yes,Time-sensitive: needs processing sped up before status deadline tomorrow, 
+344676,"@delta I have a question, a flight from London to Jamaica includes baggage of 23kg right ?",,general_policy_info,no,,  Baggage allowance policy question
+1559179,@Delta can you bring an e-cig on a plane?,,general_policy_info,no,, 
+2736723,"@Delta gate agent at LGA flight 5598 to CHS, male name started with L was incredibly rude - I am traveling with two small children and fly delta exclusively.  Expect better from delta!!",,service_complaint,no,,"  Rude gate agent, traveling with children - REVIEW borderline escalate"
+1814411,"@Delta hello, I have been attempting to speak to someone in your Medallion program and itâ€™s not going so well. Any assistance please :)",,loyalty_miles_status,no,, 
+452185,@Delta do you give discount for groups of 10 or more?  Thanks!,,general_policy_info,no,, 
+2756008,Thank you to the @Delta domestic reservations phone rep who kindly helped our family yesterday with a Thanksgiving-related travel issue. ðŸ™‚,,praise_or_noise,no,, 
+289147,@824 flight 1180 out of LAX...terrible lack of communication at gate at lounge...What is going on?,,service_complaint,no,,  Lack of communication at gate/lounge
+2244057,A huge thank you to Alethia from @delta in Atlanta for helping me get to LA on time after my Montreal flight was delayed missing the connect https://t.co/6J4xo5GOOX,,praise_or_noise,no,, 
+442335,"And @Delta strikes gold! Have to gate check my bag, thus guaranteeing zero chance of making my connection. Super excited! Yah!",,rebooking_connection,no,,  Sarcastic venting about gate-checked bag guaranteeing missed connection
+2653651,"@Delta Thank you! Iâ€™m allowed to bring snacks in a carryon bag, right?",2653652.0,general_policy_info,no,, 
+738310,@Delta need help with a seat assignment snafu on the return leg of my trip. Help!,,checkin_seat_upgrade,no,, 
+2444424,@delta super committed to you and prove it with $ and miles but check in on dL 0675 tonight makes me wonder why...,,loyalty_miles_status,no,,"  Vague complaint, unclear exact ask"
+278105,@Delta very unhappy you have changed seat allocation after special request and receipt of confirmation without any explanation,,checkin_seat_upgrade,no,, 
+2069797,@DELTA love the new app except it no longer shows me which gate I am arriving to plan my connection......,,service_complaint,no,,  App feature complaint (missing gate info for connections)
+1924884,"@Delta But those below me on list and a few standbys were given upgrade. Makes no sense. Gate agent says ""glitch"" there were a lot of ""glitches""",1332931.0,checkin_seat_upgrade,no,,"  Upgrade fairness complaint, gate agent blamed 'glitch'"
+796635,"@Delta DL1496 still on tarmac, will likely miss connection to DL4820. Any other options to get home?",,rebooking_connection,yes,"Active tarmac delay risking missed connection, needs real-time rebooking options", 
+2386695,"@Delta Have done, just awaiting a response. Many thanks.",2386694.0,praise_or_noise,no,,  Non-actionable follow-up
+761312,@Delta @301902 Did you get a seat?,761311.0,general_policy_info,no,,  Context-free fragment
+334194,@Delta @824 YOU FORCED ME TO CHECK MY LUGGAGE AT THE GATE AND THEN COMPLETELY RUINED IT!!!!!! https://t.co/7AYvsHVERB,,baggage_lost_item,no,,"  Forced gate-check, bag damaged - angry tone, REVIEW borderline escalate"
+1507186,@Delta Thanks but thatâ€™s doesnâ€™t improve my 9hr flight experience though.,1507187.0,service_complaint,no,, 
+1646887,Thank you @Delta for your continued support! We welcomed home the Harris family &amp; celebrated out 800th home in LA! https://t.co/lyNaNI5A36,,praise_or_noise,no,, 
+1591181,"@Delta is awesome thanks for the Porsche ride between terminals at LAX, you are amazing https://t.co/AkHskoHTRz",,praise_or_noise,no,, 
+1537844,Saw something tonight that indicates it's there now. @Delta auto-checkin for #Android #Travel https://t.co/BbFCM8dPDV,,general_policy_info,no,,"  Feature note, not really a request"
+764245,@Delta 6 weeks. more than 10 calls where I waited for over 40 minutes for results. and no news about my bag!,,baggage_lost_item,yes,"6 weeks unresolved, 10+ calls with long hold times, repeated unresolved contact", 
+982157,. @Delta may be the worst airline out there. Have yet to have a good experience with them,,service_complaint,no,, 
+200591,@Delta Will do. Thank you.,200594.0,praise_or_noise,no,,  Non-actionable follow-up
+1185899,"A dagger in my heart @Delta, just as youâ€™ve loaded my bag on the wrong flight after hours of delays https://t.co/QVV6qeKcUl",,baggage_lost_item,no,,  Compounded with delay - multi-intent
+478232,@Delta good morning can you please provide us with a status on when the standby list will be fixed via the app.,,checkin_seat_upgrade,no,,  Standby list status question
+1793532,"@Delta 1/2 Sorry for the late response, but that policy is really stupid. I'd save money, time, and fuel, if I skipped the first half..............",1793530.0,service_complaint,no,,"  Policy complaint, seems to be continuation of a thread"
+57075,@Delta TY to crew on 4627. Had a bag that wouldnâ€™t fit overhead or under the seat but had a c-pap so flight attndant stored it #favairline,,praise_or_noise,no,, 
+2898355,@Delta I paid to get an exit row but the plane was changed and I was moved to a normal seat.  I get it but the attitude of gate agent was horrible and she said I don't get a refund?!?,,refund_compensation,no,,  Multi-intent: seat downgrade + rude staff + refund denial
+1858265,Srsly @Delta? Ordered a voucher gift card   a month ago that never came &amp; now being told you need 3 weeks to send a new one.,,refund_compensation,yes,"Month-long unresolved voucher issue, now told to wait further", 
+1644744,Been stuck on @Delta plane (DL167) at gate for almost 5 hours. Canâ€™t tell us we can deplane and threaten to leave without us if we do!,,flight_delay_status,yes,"Stranded on aircraft at gate ~5 hours, threatened to leave without deplaned passengers - welfare concern", 
+1939929,@Delta Can you provide some mileage credit? This has been a huge inconvenience.,1939928.0,refund_compensation,no,, 
+2385888,Finally off to the US. Just hoping I don't miss my connection in Detroit now...@Delta,,rebooking_connection,no,,"  Anticipatory worry, not yet a crisis"
+2467779,@delta customer service is terrible!,,service_complaint,no,, 
+268247,"@Delta He was not helpful. In fact, he was quite rude.",268246.0,service_complaint,no,, 
+1937884,@Delta Received the travel warning for Northeast. Trying to rebook flight. Errors on app and website and 2 hr hold 4 cust svc. Any help??,,rebooking_connection,yes,"Weather-related mass disruption, app/website errors blocking rebooking, 2hr hold", 
+319210,@Delta AMS staff would not let me send luggage through all my flights today. Likely miss connection in ATL to BHM.... help!,,rebooking_connection,yes,Baggage routing issue actively threatening missed connection, 
+1498484,"I never thought I would see the day that I, loyal Skymiles member # 9270860795, would be betrayed by @Delta #heartbreaking",,service_complaint,no,,"  Emotional but vague, no specific actionable crisis"
+1023893,missed my flight last night but bless @Delta for not only waving my fees for the new flight but for sticking me in first class,,praise_or_noise,no,, 
+1067020,Reasons to love @Delta: I was assigned the last seat and the gate agent noticed I was 8 mos pregnant and she moved me up and to an aisle. â¤ï¸,,praise_or_noise,no,, 
+2962089,Frequent Flyer âœˆï¸ Thanks For The Great Flight @delta #diamondmedallion @ LAX - Los Angelesâ€¦ https://t.co/5Yyn65aX5E,,praise_or_noise,no,, 
+2681800,@Delta it s not only online but on the phone too ! please fix that .,2681799.0,general_policy_info,no,,"  Fragment/continuation, likely a bug report (online AND phone)"
+1939406,@Delta You could make it up to me with a voucher. :/ I fly Delta all the time.,1939407.0,refund_compensation,no,, 
+1732721,@Delta Just tried the gold medallion desk- the rep said they canâ€™t help me and that I can only talk to the airport ticketing agent?,1732720.0,loyalty_miles_status,no,,  Bounced between departments
+994582,"@Delta not a happy customer right now. Originating flight out of SDF was late, get to ATL gate with 10 mins to spare and our seats are gone.",,checkin_seat_upgrade,no,,  Multi-cause: delay + seat loss
+2050012,@Delta Thank you @Delta &amp; *HJH.,2050011.0,praise_or_noise,no,, 
+893534,Big thanks to @Delta for surprising my wife with a gift bag @136176 for completing her doctorate! Another reason to #keepclimbing https://t.co/KeFFsB16uH,,praise_or_noise,no,, 
+2928717,@Delta My belongings won't make it through the airport. Are you dumb? The luggage is BROKEN,2928715.0,baggage_lost_item,no,,  Angry tone ('are you dumb') but standard damage claim
+1462670,"Update: very glad I made the connection bc this is definitely the nicest A320 Iâ€™ve ever flown on. Love you always, @delta",1462671.0,praise_or_noise,no,, 
+2862818,@Delta No it's 630 now. I am renting a car. Very bad. I want a refund,2862817.0,refund_compensation,yes,Explicit financial demand + had to pay for car rental due to disruption, 
+157114,"@Delta My original flight is international destination. So if I request a refund, I can use the credits for domestic destination? Thanks",157115.0,refund_compensation,no,,  Policy question about refund/credit conversion
+1645689,Awful @Delta - just awful. As a loyal member and medallion customer - Iï¸ expected much much better. #NoLoveHere,,service_complaint,no,, 
+1546094,Wake-up at 4am. Ready to have a Wonderfull Flight with @Delta with My @63435 iconic 101801 #businessclass #USA ðŸ¥ðŸ¥ðŸ‘Œ https://t.co/ZEEIigSWaf,,praise_or_noise,no,, 
+2258192,Delay...ðŸ™„ðŸŒ´ðŸ–ðŸŽ¢ Detroit &lt; Orlando @Delta,,flight_delay_status,no,,"  Minimal context, emoji-heavy"
+1409915,@Delta plane Iâ€™m on is experiencing mechanical issues. Back to the gate we go:/,,flight_delay_status,no,,"  Informational, no immediate ask"
+2039156,"@Delta Do you all have workers checking people in at LAX? Flight is at 5:30, been here since 3:30 and no one is here to check-in sky priority people",,checkin_seat_upgrade,yes,No check-in staff present close to departure for sky priority passengers - active risk, 
+2901272,.@Delta Thank you for your amazing customer service! You've made this homesick girl even more excited to make it back home for the Holidays! ðŸ’•âœˆï¸,,praise_or_noise,no,, 
+757212,@Delta flight 4608 with 13 open seats in delta comfort and no upgrade offered?  Even asked and was denied. why? Was on 1st class list.,,checkin_seat_upgrade,no,, 
+634194,"@Delta Is DL4676 delayed or not? I thought I had a little bit of extra time this morning, then I got a call an hour ago saying the flight is on time...",,flight_delay_status,no,,"  Confusion about status, not crisis"
+1176033,"@delta my connecting flight was cancelled for non-weather reasons, and I canâ€™t get a hold of anyone to process a refund.",,refund_compensation,yes,"Cancelled flight, refund blocked by inability to reach support", 
+2496956,Donâ€™t fly @Delta theyâ€™ll leave you stranded. Travel @135156 or take the train!,,service_complaint,no,,"  General complaint referencing past stranding experience, vague on specifics"
+2967174,Dang it @Delta you didn't need to break my luggage. https://t.co/lgQfWUhzLw,,baggage_lost_item,no,, 
+508962,@Delta about to lose a sky mike member,,service_complaint,no,,"  Churn threat, vague"
+233906,Impressed with @delta. I had a voucher in my maiden name (travel is not easy w/ name change) &amp; they gave me choice of gift card instead.,,praise_or_noise,no,, 
+1640455,"@Delta I understand. But I bought the ticket from your team, not ATC. What is the recourse for a refund/voucher?",1640458.0,refund_compensation,no,, 
+302330,"@Delta Of course I did, they said it's to late when I was 20 mins early. They called the manager who also said the same thing.",302328.0,service_complaint,no,,"  Repeated denial + manager involved, REVIEW borderline"
+939371,@Delta so much for that comfort ticket..get assigned seat in the last row by the bathrooms window seat w no room 2 breathe #refund anyone?,,refund_compensation,no,,  Explicit #refund ask
+2965925,@Delta connection at JFK looking iffy as luggage still isnâ€™t all unloaded. DL 4063,,rebooking_connection,yes,Active real-time risk of missing connection due to baggage delay, 
+1225371,@Delta $150 for 3rd checked bag? But offer to check bag to final dest at gate. Donâ€™t understand. Had to leave a bottle of @51650 behindðŸ˜ž,,general_policy_info,no,,  Fee confusion
+1688743,@Delta whatâ€™s the easiest way to change your name on your #Skymiles account after getting married?,,loyalty_miles_status,no,, 
+2324723,@Delta No wheelchair service in Paris.  I have a back injury and no wheelchair service.,,service_complaint,yes,SAFETY-NET: disability accommodation failure + injury mentioned, 
+931877,"People usually complain so I just want to say, I love flying @Delta. @824 always helpfu, always a pleasure to fly.",,praise_or_noise,no,, 
+1510075,"@Delta Hey, thanks!",1510074.0,praise_or_noise,no,, 
+2669447,@delta have a flight booked through Delta but the first leg is operated through Korean Airlines. Trying to select my seat but the Delta app wonâ€™t let me,,checkin_seat_upgrade,no,, 
+1445786,"@Delta To reiterate: I left an amenity kit at DTW North Sky Club on Thursday morning, and it was handed over to DTW baggage on Thursday morning.",1445781.0,baggage_lost_item,no,,  Lost item follow-up
+594138,"@Delta Bought tickets together, checking in, husbandâ€™s seat upgraded to Delta Comfort &amp; mine changed. Tried calling, 2 hour wait. How can we fix this to sit together?",,checkin_seat_upgrade,no,,"  2hr wait to fix seating, REVIEW borderline"
+1075578,Patiently waiting to receive my update on my application status for @Delta  so excited and hoping for the best ðŸ˜€ðŸ˜€ðŸ˜€,,praise_or_noise,no,,"  LIKELY DATASET NOISE - REVIEW: reads like a job-application status inquiry, not a support request at all"
+1022954,"I need my in-flight coffee @Delta, but I can't do black. Please add nondairy #vegan creamers. â˜•ï¸",,general_policy_info,no,,  Product feedback/request
+398885,@Delta Terrible experiences every trip this year.  I can put up with delays but I refuse to be a 2nd class customer,398884.0,service_complaint,no,, 
+2986622,@Delta Thanks! So Iâ€™ll earn at the platinum rate or the diamond rate?,2986621.0,loyalty_miles_status,no,, 
+2082792,Brooks and family home safe.. Thanks Delta! SFO to ATL Yeah Câ€™mon! @11976 @Delta @171306 https://t.co/waBxUegfM6,,praise_or_noise,no,, 
+430809,@Delta delayed 2+ hours last night on the way back to LGA from DFW.  This is the 3 third time in under 4 months! Didn't land til 2 am!,,flight_delay_status,no,,  Repeated pattern (3rd time in 4mo) - REVIEW borderline
+1460051,@Delta Ok. Thanks. I didn't check Luke's. Mine has not been.,1460048.0,praise_or_noise,no,,"  Fragment/continuation, thread context needed"
+2859356,@Delta @SouthwestAir **Update** @southwestair now this really doesn't make any sense 2hrs &amp; 30min. I'm gonna wait it out jus to see now https://t.co/1A7N3Uqpwr,2859355.0,flight_delay_status,no,,"  Primarily directed at Southwest, Delta secondary tag - possible off-topic"
+79594,@Delta generously credited FF miles after my cross country flight without wifi and inseat entertainment.  #confused as to why I got the same credit after paying for 4 ticketed travelers that a single traveler got.  #notfaircredit,,loyalty_miles_status,no,, 
+819565,"@Delta Aurgh! Paid for LV flights months ago, boarding now W/out a seat. WTH. Really?! Take my cash, by not commuting me a seat. Wow..",,checkin_seat_upgrade,no,, 
+413183,@Delta on flight 0501 out of BNA and then connecting to MSP from ATL on 1130. Do you think we will make the connection?,,rebooking_connection,no,,  Routine connection timing question
+903849,"@Delta At airport now, but seriously disappointed with first delay experience. Tough position to relocate 200+people I know.",903851.0,flight_delay_status,yes,Large-scale disruption (200+ passengers) needing coordinated response, 
+311089,@Delta almost certainly gonna miss my connection in seattle. I love when you guys ruin holiday weekends.,,rebooking_connection,yes,Near-certain missed connection during holiday travel, 
+2031393,@DELTA our entire plane is at the gate (MLI) waiting for grounds crew! It's been 30 mins. Uh...someone needs training at MLI unacceptable!,,flight_delay_status,no,,"  30 min wait, not yet severe"
+1185905,Hey @Delta can u explain how flt#5973 has been delayed over 5 hrs &amp; then somehow the flight plan gets â€œlostâ€?? #NOTCOOL,,flight_delay_status,yes,5+ hour delay compounded by lost flight plan - operational failure, 
+1294193,"@Delta Flying from T4 JFK this evening. If I check a bag and go thru security at T2 due to the issue at T4, will the bag make my flight?",,baggage_lost_item,no,, 
+1538173,@Delta Thanks - the issue is that I still havenâ€™t received either of my checked bags after nearly 5 hours and no one can tell me when I will.,1538172.0,baggage_lost_item,yes,5 hours unresolved with no information provided on missing bags, 
+2703399,@Delta I was denied entry by TSA at JFK with my electronic boarding pass from the Fly Delta app. Thanks for all the aggravations and delays at one of the worldâ€™s worst airports!!,,checkin_seat_upgrade,yes,App-issued boarding pass rejected by TSA - operational failure with real consequences, 
+774279,@delta sucks!!! Over book flights then has AC freezing on the plane and no blankets. Stuart's are rude. Worst flight ever!!! Never again,,service_complaint,no,, 
+149642,@Delta kudos a to Case Keating TLH for best customer service ever! #delta,,praise_or_noise,no,, 
+1592165,"When your friends think poorly of your long term relationship with your airline. @Delta donâ€™t worry, you put a diamond on me, Iâ€™m yours. ;) https://t.co/dza9zT7Bnz",,praise_or_noise,no,, 
+859091,#delta @delta wants privacy and says if I want a refund I have ask for it. Fill out forms,,refund_compensation,no,, 
+718134,"@Delta I had a recent flight where i received terrible service and on top of that, I am just now getting my bag from the trip (8 days after) H72ZPD",718136.0,baggage_lost_item,yes,"Bag delayed 8 days, prolonged unresolved on top of poor service", 
+2809114,@Delta Relatively simple question:  where is the priority bag you lost and when can I expect it?,2809112.0,baggage_lost_item,no,, 
+1011949,@Delta Your competitor @AmericanAir made my family lose flight and now on standby. Next time we fly we choose you. Look at your check in! Amazing https://t.co/imlahtZtIL,1011948.0,praise_or_noise,no,,"  Comparative praise, mentions AmericanAir issue"
+1344817,"@Delta How do I rebook a Skymiles redemption flight? Iâ€™m supposed to travel through JFK from NCE, and it says I canâ€™t change it online. Thank you.",1344800.0,rebooking_connection,no,,  Tied to miles redemption booking
+207195,@Delta @Delta @824 I'll figure that out as soon as I can check hotels I can spend miles at. When will the Skymiles Marketplace be up again?,207018.0,loyalty_miles_status,no,, 
+2433244,Loved everything about flying with @Delta until Iï¸ got to baggage claim and noticed my hard shell suitcase is now dented in and cracked to the point to where it almost collapses in on itself when Iï¸ roll it ðŸ˜¡ðŸ˜¡ðŸ˜¡,,baggage_lost_item,no,, 
+1009250,@Delta just spent $802 to fly cross-country &amp; my app is telling me â€œactivity not eligible for  [SkyMiles] mileage creditâ€. How can that be?,,loyalty_miles_status,no,, 
+2584667,@Delta Thanks! I appreciate the feedback! ðŸ˜,2584666.0,praise_or_noise,no,, 
+1249531,@Delta thanks for a terrible experience https://t.co/kW11cQf4dr,,service_complaint,no,,  Sarcastic 'thanks for terrible experience'
+1655188,@187297 @116462 @Delta So bad today on flight back I gave up,1655189.0,service_complaint,no,,  Vague
+2905949,@DELTA upgraded me to a worse seat than the one I had,,checkin_seat_upgrade,no,, 
+28527,I need assistance in getting on standby for later flight. Major delays in Paris and will miss connection in ATL. @Delta,,rebooking_connection,yes,"Major delays causing missed connection, needs proactive standby assistance", 
+1740030,@Delta need help with seat assignment,,checkin_seat_upgrade,no,,  Vague/short
+1192347,@delta who is going to pay to rebook us? Not our fault,,refund_compensation,no,, 
+2894094,@delta - hey I need some help with a voucher I received. Can you DM me?,,refund_compensation,no,, 
+1877942,@Delta I have 2 skymiles account due to Amex credit card. Can you please merge accounts ?,,loyalty_miles_status,no,, 
+2522787,"Hey @824 @Delta I'd love to buy more plane tickets, but, your site appears quite broken. https://t.co/VyM9EFSaKS",,general_policy_info,no,,  Site bug report
+2709303,I had one of these worst flight experiences on @Delta . There needs to be a stronger sense of communication between customer service and their airport employees,,service_complaint,no,, 
+1289129,Please tell me thereâ€™s a second lounge for @delta Diamond members. Cause this is just embarrassing. #cheesenocrackers,,service_complaint,no,,  Sarcastic complaint about lounge
+1179762,@Delta Trying to connect.  Just landed ATL. 5 minutes to catch plan.,1179761.0,rebooking_connection,yes,"Extremely time-critical connection (5 minutes), needs immediate real-time assistance", 
+494337,@Delta big thanks to the gate agents at GSP who dealt with a lot of frustrated and rude passengers after our diverted flight from AVL today and arranged alternative transport to our final destination quickly. Great example of amazing Delta service. #HappyMedallion,,praise_or_noise,no,, 
+1784846,@Delta Horrible day,1771133.0,service_complaint,no,,"  No specifics, context-free"
+551361,"@Delta in Canun and you cancelled my girlfriends flight for no reason thanks for nothing!!! Rude staff, Horrible person ignoring me, unhelpful now I have to stay overnight in Atlanta terrible service. I take several flights a year Delta are now bottom of my list.",,service_complaint,yes,"Flight cancelled resulting in unplanned overnight stay, rude/unhelpful staff compounding", 
+104242,I bet @JetBlue would have treated me the best but instead I am stuck with a $250 travel voucher from @Delta for missing my grandmotherâ€™s funeral after an electrical delay. #jetblue #delta #grief,,refund_compensation,yes,Missed a family funeral due to delay - high emotional stakes despite voucher offered, 
+602864,"@Delta The condition of aircraft on Flight #483 today from JFK to SFO is unacceptable. Between the putrid smell, lack of in seat power, and ancient IFE and overall condition. This is not acceptable for a 6.5 hour flight.",,service_complaint,no,, 
+2818218,@Delta have traversed lga bag claim twice to announced carousels that were wrong... correct one still not announced. ðŸ˜‘,,baggage_lost_item,no,, 
+986510,@Delta How are you SHOWING that loyalty matters when you charge us even though your employees were unbelievably rude? Words donâ€™t matter.,986502.0,service_complaint,no,, 
+2635782,@Delta Can you help me? I have a delay thatâ€™s resulting in me missing my layover. Can you help me find an alternative?,,rebooking_connection,yes,Active missed-connection situation requiring rebooking assistance, 
+1786717,@Delta why do you schedule the worst layover times? Lucky I'm a fast runner,,service_complaint,no,,  Sarcastic
+102272,"@delta gate agent was zero help.  Asked to change my flight to the gate she is working and she handed me a card and said, ""call the number on the card.""  Has yet to smile or say sorry I cant help.  Only words spoken were the six above.  Where has customer service gone?",,service_complaint,no,, 
+2720861,"@Delta hi, can I check in an additional bag at my connection airport (MSP)? I have a 13hr layover and plan on leaving airport before next flight. Flying HNL-MSP-AMS.",,general_policy_info,no,, 
+909836,"@delta Any update on when Skymiles Marketplace will be up and running again on https://t.co/wQdkVVXJyB? Been ""temporarily down"" for awhile",,loyalty_miles_status,no,, 
+1627415,"@Delta Guadalajara airport is closed going to miss my flight, I need to reschedule my flight",1627407.0,rebooking_connection,yes,"Airport closure causing missed flight, needs urgent rebooking", 
+2816761,@Delta @785215 Your airline damaged her expensive luggage and youâ€™re thanking her for flying with you?? ðŸ¤”,2816760.0,baggage_lost_item,no,,"  Sarcastic anger, standard claim"
+772352,Spent 3 hrs on the phone to get thru to @Delta while Im in Ireland. I asked a question they couldnt respond to so they hung up on me classic,,service_complaint,yes,3-hour international call ending in being hung up on unresolved, 
+1188137,@Delta thank you for all the help! Brent from digital simply amazing. I know I complain a lot but people like Brent- why I love Delta.,,praise_or_noise,no,, 
+2079221,Very disappointed @delta right now! Flight DL2437 was supposed to leave at 7:20am... ðŸ˜• Still here. #DTW #Issues https://t.co/0SEUxuYZRB,,flight_delay_status,no,, 
+611555,@Delta Thank You!ðŸ˜Šâ¤ï¸,611556.0,praise_or_noise,no,, 
+303564,@delta In need of help at the moment. I never received a receipt for my checked luggage last month. How can I go about getting copies?,,general_policy_info,no,, 
+361485,@Delta I am having trouble checking in to my flight for tonight. When I try to check in it says I need to check in through aeromexico.,,checkin_seat_upgrade,no,, 
+1926729,@824 presently talking to the worst customer rep you employ. I hope this experience is an outlier not a trend.,,service_complaint,no,, 
+2977648,@DELTA Fly 100+ legs/yr on SW and AA mostly. Delta app tells me I can't check in because I'm on standby? Can't win me over with that!,,checkin_seat_upgrade,no,, 
+328838,@Delta I flew from DTW to LIS on July 31 and returned on Aug 4. My Skymiles account does not show this trip.,,loyalty_miles_status,no,, 
+1017565,@Delta Doesn't look like anyone wants the voucher if it means they have to wait until tomorrow to leave.,1017564.0,refund_compensation,no,,"  Vague/ambiguous, context needed"
+2029639,@Delta thanks for double charging my credit card for 1 ticket purchase. I really enjoy being put on hold for 2 hours to solve your mistake.,,refund_compensation,yes,"Double-charged credit card, billing error, already 2hrs on hold", 
+2224521,@Delta NO im worried about missing my FIRST flight not a connection. Iâ€™m worried that u guys open at 9am &amp; we will not get through customs for HOURS! So then my colleagues &amp; I may miss our flights all together,2224523.0,rebooking_connection,yes,Active risk of missing flight for multiple colleagues due to customs delay, 
+2898901,Connecting flight with @Delta from ATL to D.C. has now been delayed over 3 hours and still no notice as to when the plane will leave. This is unacceptable and I will not be flying wth @delta again.,,flight_delay_status,no,,"  Churn threat but no acute crisis per rules, REVIEW borderline"
+1531517,"First time flying @Delta in years, and itâ€™s going great. My flight has been delayed an hour, and you know thatâ€™s a great feeling.",,flight_delay_status,no,,  Sarcastic
+2638720,@Delta Delta flight operated by Air Europa. Unable to check in online through their website/app and unable to call their customer service since I'm in Spain. Can you help?,,checkin_seat_upgrade,yes,Unable to check in and unable to reach support internationally, 
+742549,@Delta I want a refund for the past 3 flights where I have wasted $ because your GoGo WiFi is too weak!,,refund_compensation,no,, 
+292944,"Arrived in Chicago and my bag is still in Atlanta, thanks @delta! ðŸ™ƒ",,baggage_lost_item,no,,  Sarcastic
+248767,@Delta can I pay for a checked bag online before a flight or do I have to do it at the airport?,,general_policy_info,no,, 
+2597433,"@Delta De-icing takes 20 minutes.  Telling passengers they can deplane, waiting for the jetway, solving for checked bags is another 90 minutes.  If",2597432.0,flight_delay_status,no,,  Incomplete message
+547242,DFW @Delta skyclub in terminal E is ðŸ”¥ðŸ”¥,,praise_or_noise,no,, 
+1505717,@Delta It would be the big mistake made by Delta Airline that just offering me 6000 mileage under the Delta's luggage policy.,1505712.0,refund_compensation,no,,  Dissatisfied with compensation amount
+2666143,"@Delta That would be lovely, except: 1. Delta hasn't emailed me the confirmation of a $100 travel credit  2. Calling into Sky Miles is a literal 2 hour wait to speak with anyone. This was my first trip on Delta and I just signed up for Sky Miles.",2666142.0,refund_compensation,yes,"Unresolved promised credit + 2hr wait, new customer negative first impression", 
+2252132,"@Delta...Mark from #CustomerService did an amazing job today, thank you!!! #flydeltajets",,praise_or_noise,no,, 
+1835341,@Delta How could I get an estimation of the fare change? Your website is not letting me go through the change. thank you,1835340.0,general_policy_info,no,, 
+2945031,"@Delta Just got off the phone with @Delta, only offered a $200 voucher...prepaid expenses are not covered. Poor service, no value for customer. The @Delta plane was not able to fly due to maintenance issues so I get penalized that I have chosen @delta to fly. Point taken!!!",2945030.0,refund_compensation,yes,"Dissatisfied with compensation vs losses, angry tone, maintenance-caused disruption", 
+1013134,"@Delta knew incoming plane was delayed hours ago, yet we didn't get a notification until at check-in counter. 2.5hrs delayed and counting",,flight_delay_status,no,, 
+2080234,@Delta Did you get my DM? Now sat on tarmac at JFK on DL483 and being told itâ€™ll be another 50mins so I may also miss my connection in Boston...,2080233.0,rebooking_connection,yes,Real-time risk of missed connection while sitting on tarmac, 
+1972246,"@Delta took our business class seats and gave us economy seats instead on the same flight!! The excuse was that the person applying the global certificate made a mistake, they didnâ€™t do it properly! Great job @delta and @120565",,checkin_seat_upgrade,yes,Involuntary downgrade from paid business class to economy due to airline error, 
+2334714,. @delta app error upgrading during checkin. Card charged twice. Upgrade not showing &amp; no more available via browser. Hold est 2 HOURS!,,refund_compensation,yes,"Charged twice due to app error, 2-hour hold to resolve", 
+1013903,@Delta Dad passed away last night. Trying to get home using dad's skymiles.  Ben Cincinnati delta manager not allow access of account help.,,loyalty_miles_status,yes,BEREAVEMENT CASE - REVIEW CAREFULLY: urgent travel need blocked by account access after father's death, 
+2060128,"@Delta Weâ€™ll see, sitting on the tarmac longer than I would have been in flight...",2060129.0,flight_delay_status,no,, 
+1242349,@Delta We've got two planes leaving A61 at DTW around 8pm and no one at A59 till 10pm. Any chance you can get   DL5390 moved to A59? ðŸ¤”ðŸ˜‰ðŸ˜,,service_complaint,no,,  Gate reassignment suggestion
+2511264,"Yayyy @delta lost my makeup bag mid flight and now I have to wait 4-6 weeks for a claim to be processed, meanwhile I get to replace it all.",,baggage_lost_item,no,,  Sarcastic
+1555189,"@Delta No, thank you for bringing my family to Japan &amp; my family to the states &amp;serving MSP. Look forward to an A350 on HND-MSP someday.",1555188.0,praise_or_noise,no,, 
+2438885,@DELTA you flew me on Jet Airways from BLR to AMS and on Delta from AMS to DTW. What do I have to do to get credit for Jet Airways miles?,,loyalty_miles_status,no,, 
+608638,@Delta  https://t.co/u8Ul6cwgwy,608636.0,general_policy_info,no,,"  URL only, no text content - unclassifiable without thread context"
+1606594,@DELTA in Rome and wondering how many bags can I check and the weight limit for platinum medallion. Thanks!,,general_policy_info,no,, 
+579527,"@Delta No more nonstop service from LAX-CVG except a red eye?? What are you people thinking? If I have to connect, youâ€™ve lost a customer. Pls reconsider. You were the only nonstop left...",,service_complaint,no,,  Route/schedule complaint
+1591915,disappointed with @Delta 8504 operated by @199552 business class 2-3-2 config. No privacy &amp; a terrible #deltaone experience.,,service_complaint,no,, 
+2643387,At least I can see the @delta Skyclub is was in before boarding this delayed flight.  Itâ€™s just taunting me.  Wish I could go back! https://t.co/java3KZqKG,,flight_delay_status,no,,  Sarcastic
+2786706,"@Delta If you are going to share this, please point out to your leaders that this all stems from your policy to not upgrade companions on separate reservations.",2039177.0,service_complaint,no,,  Policy feedback
+1621998,@Delta .@Delta That's some horrible customer care. How could it possibly take that long to RESPOND to an email? Especially when it takes you 1 hour,1621997.0,service_complaint,no,, 
+2392997,Many thanks to Mel (Melinda) on the DL972 yesterday to @122828 -excellent friendly service. A Real credit to @Delta Thanks! https://t.co/dI5UfPJ9kC,,praise_or_noise,no,, 

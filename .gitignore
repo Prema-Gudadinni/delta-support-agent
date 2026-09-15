@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+
+# Never commit API keys
+*.key
+
+# Checkpoint file is just resume-progress scratch state, not a deliverable
+eval/checkpoint.jsonl
