@@ -92,11 +92,55 @@ label the golden set and run evals -- you'll hit more edge cases.)
     the cost of not perfectly reflecting real-world frequency -- documented
     and correctable via reweighting if needed.
 
-11. **[Fill in during labeling]** -- decisions about ambiguous/multi-intent
-    messages, e.g. how you resolved cases like "flight delayed AND crew was
-    rude" (#9 from our sample review).
+11. **Multi-intent messages are labeled by primary actionable ask, not the
+    first-mentioned issue.** Decision rule: "if Delta could only do ONE
+    thing right now, what would actually resolve this?" Applied
+    consistently, e.g. a message combining a seat downgrade + rude staff
+    + refund question was labeled refund_compensation because the
+    customer's actual open question was about money, with the other
+    issues as context (logged in notes, not a separate label).
 
-12. **[Fill in after eval]** -- any decisions made while debugging the
-    classifier/judge (e.g. prompt adjustments after seeing failure patterns).
+12. **Merged classify + escalate + draft into a SINGLE agent-model call**
+    (was 3 separate calls: classify, then escalate, then draft).
+    Groq's free-tier 8,000 TPM cap made the 3-call version impractically
+    slow -- a full 216-row eval was projected at 8-9 hours. Merging cut
+    per-row token overhead roughly in half (taxonomy definitions and
+    message text were being resent 2-3x) and got the full run down to a
+    manageable timeframe. Tradeoff: pipeline.py now mixes three
+    responsibilities (classification, escalation judgment, drafting)
+    into one function and one prompt, which is less clean than the
+    original separated design -- a deliberate, deadline-driven
+    readability-for-throughput tradeoff, not an oversight.
 
-13-15. **[To be added]**
+13. **Added checkpointing to the eval harness** (eval/checkpoint.jsonl) --
+    each row's result is saved to disk immediately as it completes, not
+    just at the end of the full run. Given how frequently free-tier rate
+    limits, network drops, and provider-side errors interrupted the
+    216-row run in practice, this turned every interruption from "lost
+    all progress, start over" into "rerun the same command, resume
+    automatically" -- a resilience feature that became necessary well
+    after the original design, added in direct response to real
+    failures encountered.
+
+14. **A bug in the eval summary printout silently skipped the average
+    reply-quality metric** (checked only the FIRST row's judge score
+    before computing an average over all rows -- if that one row failed
+    to parse, the whole metric was skipped, even though 176/216 other
+    rows had valid scores). Recovered the correct number (4.04) via a
+    standalone script reading the already-saved results, without
+    re-running any API calls. This bug itself surfaced a second, more
+    important finding: 40/216 rows (18.5%) had judge scores that failed
+    to parse at all -- a real limitation of the judge's output-format
+    reliability, disclosed in report.md Section 5 rather than silently
+    excluded.
+
+15. **Escalation recall (27.8%) was treated as the single most important
+    number in the whole evaluation, not overall accuracy.** Failure
+    analysis showed the agent reliably catches explicit-keyword safety
+    cases (via the rule-based safety net) but under-escalates on
+    inferred/compound severity -- cases requiring combining multiple
+    facts in a message (e.g. "tarmac delay" + "tight connection" = will
+    miss connection) rather than matching an obvious trigger phrase.
+    This is named as the single most consequential failure mode found,
+    consistent with the project's stated design priority that missing a
+    real escalation is costlier than a false alarm.

@@ -1,0 +1,5138 @@
+{
+  "summary": {
+    "agent": {
+      "classification": {
+        "accuracy": 0.7870370370370371,
+        "macro_precision": 0.7907900722763083,
+        "macro_recall": 0.7875060841005114,
+        "macro_f1": 0.782656103850633,
+        "per_class": {
+          "flight_delay_status": {
+            "precision": 0.7037037037037037,
+            "recall": 0.95,
+            "f1": 0.8085106382978723,
+            "support": 20
+          },
+          "rebooking_connection": {
+            "precision": 0.6666666666666666,
+            "recall": 0.75,
+            "f1": 0.7058823529411765,
+            "support": 16
+          },
+          "refund_compensation": {
+            "precision": 1.0,
+            "recall": 0.8636363636363636,
+            "f1": 0.926829268292683,
+            "support": 22
+          },
+          "checkin_seat_upgrade": {
+            "precision": 0.7894736842105263,
+            "recall": 0.7894736842105263,
+            "f1": 0.7894736842105263,
+            "support": 19
+          },
+          "baggage_lost_item": {
+            "precision": 0.7894736842105263,
+            "recall": 0.8823529411764706,
+            "f1": 0.8333333333333334,
+            "support": 17
+          },
+          "service_complaint": {
+            "precision": 0.8048780487804879,
+            "recall": 0.75,
+            "f1": 0.7764705882352941,
+            "support": 44
+          },
+          "loyalty_miles_status": {
+            "precision": 0.9285714285714286,
+            "recall": 0.65,
+            "f1": 0.7647058823529411,
+            "support": 20
+          },
+          "general_policy_info": {
+            "precision": 0.5454545454545454,
+            "recall": 0.631578947368421,
+            "f1": 0.5853658536585366,
+            "support": 19
+          },
+          "praise_or_noise": {
+            "precision": 0.8888888888888888,
+            "recall": 0.8205128205128205,
+            "f1": 0.8533333333333334,
+            "support": 39
+          }
+        }
+      },
+      "escalation": {
+        "accuracy": 0.8425925925925926,
+        "escalate_recall": 0.2777777777777778,
+        "escalate_precision": 0.5555555555555556,
+        "confusion_matrix": [
+          [
+            172,
+            8
+          ],
+          [
+            26,
+            10
+          ]
+        ],
+        "confusion_matrix_labels": [
+          "auto_handle",
+          "escalate"
+        ]
+      }
+    },
+    "trivial_baseline": {
+      "classification": {
+        "accuracy": 0.2037037037037037,
+        "macro_precision": 0.022633744855967076,
+        "macro_recall": 0.1111111111111111,
+        "macro_f1": 0.03760683760683761,
+        "per_class": {
+          "flight_delay_status": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 20
+          },
+          "rebooking_connection": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 16
+          },
+          "refund_compensation": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 22
+          },
+          "checkin_seat_upgrade": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 19
+          },
+          "baggage_lost_item": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 17
+          },
+          "service_complaint": {
+            "precision": 0.2037037037037037,
+            "recall": 1.0,
+            "f1": 0.3384615384615385,
+            "support": 44
+          },
+          "loyalty_miles_status": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 20
+          },
+          "general_policy_info": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 19
+          },
+          "praise_or_noise": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 39
+          }
+        }
+      },
+      "escalation": {
+        "accuracy": 0.8333333333333334,
+        "escalate_recall": 0.0,
+        "escalate_precision": 0.0,
+        "confusion_matrix": [
+          [
+            180,
+            0
+          ],
+          [
+            36,
+            0
+          ]
+        ],
+        "confusion_matrix_labels": [
+          "auto_handle",
+          "escalate"
+        ]
+      }
+    },
+    "simple_baseline": {
+      "classification": {
+        "accuracy": 0.9490740740740741,
+        "macro_precision": 0.9740404040404039,
+        "macro_recall": 0.933096835225318,
+        "macro_f1": 0.9503328411809788,
+        "per_class": {
+          "flight_delay_status": {
+            "precision": 1.0,
+            "recall": 0.9,
+            "f1": 0.9473684210526315,
+            "support": 20
+          },
+          "rebooking_connection": {
+            "precision": 1.0,
+            "recall": 0.9375,
+            "f1": 0.967741935483871,
+            "support": 16
+          },
+          "refund_compensation": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 22
+          },
+          "checkin_seat_upgrade": {
+            "precision": 1.0,
+            "recall": 0.8947368421052632,
+            "f1": 0.9444444444444444,
+            "support": 19
+          },
+          "baggage_lost_item": {
+            "precision": 1.0,
+            "recall": 0.8235294117647058,
+            "f1": 0.9032258064516129,
+            "support": 17
+          },
+          "service_complaint": {
+            "precision": 0.88,
+            "recall": 1.0,
+            "f1": 0.9361702127659575,
+            "support": 44
+          },
+          "loyalty_miles_status": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "general_policy_info": {
+            "precision": 1.0,
+            "recall": 0.8421052631578947,
+            "f1": 0.9142857142857143,
+            "support": 19
+          },
+          "praise_or_noise": {
+            "precision": 0.8863636363636364,
+            "recall": 1.0,
+            "f1": 0.9397590361445783,
+            "support": 39
+          }
+        }
+      },
+      "escalation": {
+        "accuracy": 0.8287037037037037,
+        "escalate_recall": 0.1111111111111111,
+        "escalate_precision": 0.4444444444444444,
+        "confusion_matrix": [
+          [
+            175,
+            5
+          ],
+          [
+            32,
+            4
+          ]
+        ],
+        "confusion_matrix_labels": [
+          "auto_handle",
+          "escalate"
+        ]
+      }
+    }
+  },
+  "raw": {
+    "agent": [
+      {
+        "tweet_id": "312452",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 3,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": null,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "2610070",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 5,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "864657",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 3,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 1,
+          "overall": 3,
+          "rationale": "The reply acknowledges the customer politely but offers"
+        }
+      },
+      {
+        "tweet_id": "257289",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "escalate",
+        "judge_scores": {
+          "relevance": 2,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 5,
+          "overall": 3,
+          "rationale": "The reply offers a clear next step but fails to acknowledge or address the concerning content of the original message."
+        }
+      },
+      {
+        "tweet_id": "1718863",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "359591",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 4,
+          "overall": 5,
+          "rationale": "The response directly answers the user's question with"
+        }
+      },
+      {
+        "tweet_id": "153927",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly addresses the user's confusion, provides accurate information without speculation"
+        }
+      },
+      {
+        "tweet_id": "1943296",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly acknowledges the baggage delay, shows empathy, avoids unsupported claims,"
+        }
+      },
+      {
+        "tweet_id": "840931",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly addresses"
+        }
+      },
+      {
+        "tweet_id": "2653492",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "2046569",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": "The reply is on\u2011topic and fact\u2011based with"
+        }
+      },
+      {
+        "tweet_id": "1688754",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "529252",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 2,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 2,
+          "overall": 3,
+          "rationale": "The reply is polite and on\u2011brand but does not specifically address the user\u2019s mention of their final 2017"
+        }
+      },
+      {
+        "tweet_id": "2567306",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": "The response directly addresses the complaint and apologizes"
+        }
+      },
+      {
+        "tweet_id": "1711516",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": "The reply acknowledges the customer's comment and expresses gratitude, stays fact"
+        }
+      },
+      {
+        "tweet_id": "1194072",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "2072521",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "escalate",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly addresses the user's query, provides accurate information without speculation, uses a courteous and helpful tone, and gives clear next steps for obtaining compensation."
+        }
+      },
+      {
+        "tweet_id": "656730",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 3,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": "The reply correctly addresses seat\u2011selection fees without fabricating information and uses a courteous tone, but it could be more directly responsive to the customer's frustration and provide a"
+        }
+      },
+      {
+        "tweet_id": "102256",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": "The reply directly answers the question with accurate information in a friendly tone, but the call\u2011to\u2011action is vague and could offer a more specific"
+        }
+      },
+      {
+        "tweet_id": "1953182",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply acknowledges the complaint, stays factual, uses a courteous tone, and provides a clear next step, though it could be slightly more personalized and specific."
+        }
+      },
+      {
+        "tweet_id": "2401852",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": "The reply politely"
+        }
+      },
+      {
+        "tweet_id": "2600419",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": "The reply directly addresses the user\u2019s"
+        }
+      },
+      {
+        "tweet_id": "1153993",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 2,
+          "tone": 4,
+          "actionability": 2,
+          "overall": 3,
+          "rationale": "The reply is friendly and acknowledges the user, but"
+        }
+      },
+      {
+        "tweet_id": "1013102",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 5,
+          "overall": 4,
+          "rationale": "The reply appropriately acknowledges the complaint and offers a clear next step without adding"
+        }
+      },
+      {
+        "tweet_id": "1644749",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 4,
+          "tone": 5,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply directly answers the query with a realistic timeframe, a courteous tone, and clear next\u2011step instructions, though the exact processing time is an estimate rather than a confirmed fact."
+        }
+      },
+      {
+        "tweet_id": "2780902",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 1,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 1,
+          "overall": 2,
+          "rationale": "The response is friendly but does not address the user's comment about having a Delta SkyMiles credit card, offering no relevant information or next"
+        }
+      },
+      {
+        "tweet_id": "1023114",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 3,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "2283673",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 2,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 2,
+          "overall": 3,
+          "rationale": "The reply is courteous but fails to acknowledge the missed connection"
+        }
+      },
+      {
+        "tweet_id": "714278",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 4,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "2848442",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 5,
+          "overall": 4,
+          "rationale": "The reply acknowledges the complaint and offers to"
+        }
+      },
+      {
+        "tweet_id": "413156",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly acknowledges"
+        }
+      },
+      {
+        "tweet_id": "2785172",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply directly answers the query with a reasonable timeframe and invites follow\u2011up, while maintaining a courteous tone, though it could be slightly more personalized."
+        }
+      },
+      {
+        "tweet_id": "1416149",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply addresses the complaint, stays factual, uses a polite tone, and gives a clear next step, though it could be slightly more personalized and proactive."
+        }
+      },
+      {
+        "tweet_id": "761362",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply acknowledges the user's request for help and invites a specific"
+        }
+      },
+      {
+        "tweet_id": "1476651",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The response addresses the customer's concern with a plausible explanation and offers"
+        }
+      },
+      {
+        "tweet_id": "2698310",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply acknowledges the complaint empathetically and requests more information, staying factual and providing a clear next"
+        }
+      },
+      {
+        "tweet_id": "2872908",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 3,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply is polite and offers next steps, but it is fairly generic and doesn\u2019t directly address the user\u2019s frustration about the $"
+        }
+      },
+      {
+        "tweet_id": "1202935",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 2,
+          "tone": 4,
+          "actionability": 2,
+          "overall": 3,
+          "rationale": "The"
+        }
+      },
+      {
+        "tweet_id": "2522765",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "344676",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 4,
+          "overall": 5,
+          "rationale": "The reply directly answers the baggage question with accurate information, uses a friendly professional tone, and offers a clear invitation to request further assistance"
+        }
+      },
+      {
+        "tweet_id": "1559179",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "2736723",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply acknowledges the complaint"
+        }
+      },
+      {
+        "tweet_id": "1814411",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "452185",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly answers the discount query, provides accurate information without speculation, uses a friendly professional tone"
+        }
+      },
+      {
+        "tweet_id": "2756008",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "escalate",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 2,
+          "overall": 4,
+          "rationale": "The reply acknowledges the positive feedback and is polite, but it offers no concrete next"
+        }
+      },
+      {
+        "tweet_id": "289147",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly acknowledges the"
+        }
+      },
+      {
+        "tweet_id": "2244057",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 2,
+          "overall": 4,
+          "rationale": "The reply is on\u2011topic, factually safe, and warmly appreciative"
+        }
+      },
+      {
+        "tweet_id": "442335",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 2,
+          "groundedness": 1,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "2653651",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 4,
+          "overall": 5,
+          "rationale": "The reply directly answers the question with accurate information in a friendly, professional tone, though it offers no further actionable guidance beyond the confirmation."
+        }
+      },
+      {
+        "tweet_id": "738310",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 5,
+          "overall": 4,
+          "rationale": "The reply directly addresses the seat\u2011assignment issue, makes no unsupported claims, uses a courteous tone, and gives a clear"
+        }
+      },
+      {
+        "tweet_id": "2444424",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 2,
+          "groundedness": 5,
+          "tone": 4,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "278105",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply addresses the complaint, stays factual, uses a polite and empathetic tone, and provides a clear next step (requesting the reservation number), though it could be slightly more personalized."
+        }
+      },
+      {
+        "tweet_id": "2069797",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 3,
+          "tone": 5,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "1924884",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 5,
+          "overall": 4,
+          "rationale": "The reply acknowledges the issue, is fact\u2011based and courteous, and gives a clear next step, though it could reference the specific upgrade\u2011"
+        }
+      },
+      {
+        "tweet_id": "796635",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly addresses the issue,"
+        }
+      },
+      {
+        "tweet_id": "2386695",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "761312",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 4,
+          "tone": 5,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply directly answers the seat question in a friendly, professional tone and offers a clear next step"
+        }
+      },
+      {
+        "tweet_id": "334194",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply"
+        }
+      },
+      {
+        "tweet_id": "1507186",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 2,
+          "groundedness": 5,
+          "tone": 3,
+          "actionability": 1,
+          "overall": 2,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "1646887",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 2,
+          "overall": 4,
+          "rationale": "The reply directly acknowledges the customer's post with a friendly, accurate tone, but it offers no clear next step or actionable information."
+        }
+      },
+      {
+        "tweet_id": "1591181",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 2,
+          "overall": 4,
+          "rationale": "The reply is relevant, accurate and warmly appreciative, but it offers no clear next step or actionable guidance for the customer."
+        }
+      },
+      {
+        "tweet_id": "1537844",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 2,
+          "overall": 4,
+          "rationale": "The reply acknowledges the customer's comment"
+        }
+      },
+      {
+        "tweet_id": "764245",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 3,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 4,
+          "rationale": "The reply apologizes and asks for claim details (clear next step) but does not fully address the complaint about"
+        }
+      },
+      {
+        "tweet_id": "982157",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "200591",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 2,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 1,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "1185899",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply is on\u2011topic, fact\u2011based, politely empathetic, and provides a clear next step, though it could be slightly more personal and concise."
+        }
+      },
+      {
+        "tweet_id": "478232",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 4,
+          "overall": 5,
+          "rationale": "The reply directly addresses the request, provides accurate information without speculation, uses a courteous tone, and offers clear alternative actions while indicating future updates."
+        }
+      },
+      {
+        "tweet_id": "1793532",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply acknowledges the customer's frustration"
+        }
+      },
+      {
+        "tweet_id": "57075",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 1,
+          "groundedness": 5,
+          "tone": 3,
+          "actionability": 1,
+          "overall": 2,
+          "rationale": "The reply merely thanks the customer without acknowledging or addressing the bag/C\u2011Pap situation, offering no useful information or next steps."
+        }
+      },
+      {
+        "tweet_id": "2898355",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "escalate",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "1858265",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "1644744",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "escalate",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 3,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "1939929",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "2385888",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The response directly addresses the"
+        }
+      },
+      {
+        "tweet_id": "2467779",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "268247",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly addresses the complaint with empathy, contains no unverified information, and provides a clear request for"
+        }
+      },
+      {
+        "tweet_id": "1937884",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 5,
+          "overall": 4,
+          "rationale": "The reply acknowledges the issue and politely requests necessary details via"
+        }
+      },
+      {
+        "tweet_id": "319210",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly addresses the baggage problem, stays factual,"
+        }
+      },
+      {
+        "tweet_id": "1498484",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 5,
+          "overall": 4,
+          "rationale": "The reply acknowledges the customer's disappointment and offers clear, realistic next steps without"
+        }
+      },
+      {
+        "tweet_id": "1023893",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": "The reply acknowledges the customer's gratitude and"
+        }
+      },
+      {
+        "tweet_id": "1067020",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 3,
+          "groundedness": 5,
+          "tone": 5,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "2962089",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 3,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 2,
+          "overall": 4,
+          "rationale": "The reply is polite and on"
+        }
+      },
+      {
+        "tweet_id": "2681800",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply acknowledges the issue"
+        }
+      },
+      {
+        "tweet_id": "1939406",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "escalate",
+        "judge_scores": {
+          "relevance": 3,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 2,
+          "overall": 3,
+          "rationale": "The response acknowledges the complaint and mentions forwarding the request, but it lacks a concrete next"
+        }
+      },
+      {
+        "tweet_id": "1732721",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "994582",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 3,
+          "tone": null,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "2050012",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "893534",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 2,
+          "overall": 4,
+          "rationale": "The reply is fully on\u2011topic, fact\u2011accurate and friendly, but it doesn\u2019t provide a clear next step for the customer."
+        }
+      },
+      {
+        "tweet_id": "2928717",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 5,
+          "overall": 4,
+          "rationale": "The response acknowledges the damage and politely requests needed details, but it could be slightly more empat"
+        }
+      },
+      {
+        "tweet_id": "1462670",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 3,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 2,
+          "overall": 3,
+          "rationale": "The reply acknowledges the customer's positive comment in a friendly tone, stays factual, but offers no concrete next step"
+        }
+      },
+      {
+        "tweet_id": "2862818",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "escalate",
+        "judge_scores": {
+          "relevance": 3,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "157114",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 4,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply directly answers the user's question with correct\u2011ish information,"
+        }
+      },
+      {
+        "tweet_id": "1645689",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 5,
+          "overall": 4,
+          "rationale": "The reply acknowledges the complaint and offers a clear next step, though the"
+        }
+      },
+      {
+        "tweet_id": "1546094",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 2,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 1,
+          "overall": 3,
+          "rationale": "The reply is friendly and fact\u2011free but is generic and does not specifically address the user\u2019s excitement or any potential need, offering no clear next step."
+        }
+      },
+      {
+        "tweet_id": "2258192",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": "The reply is relevant and fact\u2011based, uses a courteous tone,"
+        }
+      },
+      {
+        "tweet_id": "1409915",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "escalate",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly acknowledges the mechanical issue, stays factual, expresses empathy, and gives"
+        }
+      },
+      {
+        "tweet_id": "2039156",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply acknowledges the missing staff and offers realistic alternatives (mobile app, kiosk) without fabricating information, uses a courteous tone, and"
+        }
+      },
+      {
+        "tweet_id": "2901272",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 2,
+          "overall": 4,
+          "rationale": "The reply acknowledges the customer's gratitude and matches the friendly tone, but it offers no concrete next step or actionable information."
+        }
+      },
+      {
+        "tweet_id": "757212",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 3,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": null,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "634194",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 2,
+          "tone": 3,
+          "actionability": 2,
+          "overall": 3,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "1176033",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "escalate",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly addresses the complaint, makes no unfounded claims, uses a courteous and empathetic"
+        }
+      },
+      {
+        "tweet_id": "2496956",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly addresses the complaint, stays"
+        }
+      },
+      {
+        "tweet_id": "2967174",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 5,
+          "rationale": "The reply directly acknowledges the luggage damage, uses a courteous tone, and provides a clear next step without adding any unverified information"
+        }
+      },
+      {
+        "tweet_id": "508962",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly addresses the concern, stays factual, uses"
+        }
+      },
+      {
+        "tweet_id": "233906",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 3,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 2,
+          "overall": 3,
+          "rationale": "The reply is friendly and"
+        }
+      },
+      {
+        "tweet_id": "1640455",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply is on\u2011topic, factually accurate, politely phrased, and gives a clear next step, though it could be slightly more empathetic."
+        }
+      },
+      {
+        "tweet_id": "302330",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly addresses the complaint, stays factual, expresses empathy, and gives a clear next step by requesting the booking reference."
+        }
+      },
+      {
+        "tweet_id": "939371",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply acknowledges the complaint and offers a clear"
+        }
+      },
+      {
+        "tweet_id": "2965925",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 3,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": "The response"
+        }
+      },
+      {
+        "tweet_id": "1225371",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": "The reply accurately addresses the customer's confusion and explains the policy, but it could be more empathetic and give a clearer, more concrete next step for obtaining a refund."
+        }
+      },
+      {
+        "tweet_id": "1688743",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly answers the query with accurate, courteous instructions and a clear next step."
+        }
+      },
+      {
+        "tweet_id": "2324723",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "escalate",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly addresses the user's concern, makes no unsupported claims, conveys empathy, and provides a clear next step (the Accessibility team will contact them)."
+        }
+      },
+      {
+        "tweet_id": "931877",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": "The reply is on\u2011topic, factually safe, and warmly appreciative"
+        }
+      },
+      {
+        "tweet_id": "1510075",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "2669447",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly addresses the user's problem, provides accurate information, uses"
+        }
+      },
+      {
+        "tweet_id": "1445786",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": "The reply acknowledges the issue and promises follow\u2011up, staying on topic and factual, but it offers limited"
+        }
+      },
+      {
+        "tweet_id": "594138",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 3,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The"
+        }
+      },
+      {
+        "tweet_id": "1075578",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly addresses the user's request, contains no speculative information, uses a friendly and empathetic tone, and clearly tells the user to expect an update within"
+        }
+      },
+      {
+        "tweet_id": "1022954",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 1,
+          "groundedness": 5,
+          "tone": 1,
+          "actionability": 1,
+          "overall": 1,
+          "rationale": "An empty reply fails to address the customer's request, offers no tone or guidance, resulting in the lowest possible scores except for groundedness, which is neutral because no false information is presented."
+        }
+      },
+      {
+        "tweet_id": "398885",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply acknowledges the complaint and asks for flight details to investigate, uses an"
+        }
+      },
+      {
+        "tweet_id": "2986622",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The response directly answers the question, provides accurate information, maintains a friendly professional tone, and offers"
+        }
+      },
+      {
+        "tweet_id": "2082792",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": "The reply is on\u2011topic and fact\u2011based, uses a friendly empathetic tone,"
+        }
+      },
+      {
+        "tweet_id": "430809",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply acknowledges the complaint, stays factual, uses a courteous tone, and requests needed info to proceed, though it could show a bit more empathy and specific next steps."
+        }
+      },
+      {
+        "tweet_id": "1460051",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 1,
+          "groundedness": 5,
+          "tone": 2,
+          "actionability": 1,
+          "overall": 2,
+          "rationale": "The reply is polite but does not address the customer's statement, offers no useful information or next steps, and thus provides little value"
+        }
+      },
+      {
+        "tweet_id": "2859356",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 2,
+          "overall": 4,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "79594",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "819565",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply directly addresses the complaint, stays factual, offers a polite apology, and"
+        }
+      },
+      {
+        "tweet_id": "413183",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 4,
+          "tone": 5,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The response directly addresses the connection question, stays mostly factual, uses a friendly professional tone, and provides a clear"
+        }
+      },
+      {
+        "tweet_id": "903849",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly acknowledges the user's frustration, stays factual, uses an empathetic"
+        }
+      },
+      {
+        "tweet_id": "311089",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "2031393",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "1185905",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "1294193",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "escalate",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 4,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply directly answers the question about bag transfer, gives a correct but brief explanation, maintains a courteous tone, and"
+        }
+      },
+      {
+        "tweet_id": "1538173",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "escalate",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The response directly addresses the customer's complaint, provides no false information, uses a courteous and empathetic tone, and gives a clear next step"
+        }
+      },
+      {
+        "tweet_id": "2703399",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 3,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply directly addresses the boarding\u2011pass problem with accurate instructions and a contact option, but the tone is only mildly"
+        }
+      },
+      {
+        "tweet_id": "774279",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": "The reply acknowledges the complaint and expresses empathy, stays factual, but its request for more"
+        }
+      },
+      {
+        "tweet_id": "149642",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "1592165",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 1,
+          "groundedness": 5,
+          "tone": 2,
+          "actionability": 1,
+          "overall": 1,
+          "rationale": "The reply is a vague thank\u2011you that does not address the customer's tweet, offers no useful information or next steps, and is overly informal for customer support."
+        }
+      },
+      {
+        "tweet_id": "859091",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 4,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 4,
+          "rationale": "The reply is on\u2011topic,"
+        }
+      },
+      {
+        "tweet_id": "718134",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply acknowledges both the service complaint and delayed baggage, stays factual, uses a courteous and empathetic tone, and offers a clear next\u2011step timeline, though it could be slightly more personalized"
+        }
+      },
+      {
+        "tweet_id": "2809114",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply directly acknowledges the missing priority bag and promises a concrete follow\u2011up within 24\u202fhours"
+        }
+      },
+      {
+        "tweet_id": "1011949",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": null,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "1344817",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 5,
+          "rationale": "The reply directly addresses the customer's issue with a polite tone, provides accurate contact information, and gives a clear next step, though it could be"
+        }
+      },
+      {
+        "tweet_id": "207195",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "2433244",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The response directly addresses the complaint, offers a factual and empathetic apology, and provides a clear, appropriate next step for the customer."
+        }
+      },
+      {
+        "tweet_id": "1009250",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply acknowledges the issue and offers a plausible reason plus a clear next step, but it could be more specific about why"
+        }
+      },
+      {
+        "tweet_id": "2584667",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 3,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "1249531",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 2,
+          "overall": 4,
+          "rationale": "The reply acknowledges the complaint politely and without adding false information"
+        }
+      },
+      {
+        "tweet_id": "1655188",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply directly acknowledges the complaint with empathy and asks for more information, staying factual and providing a clear next step, though it could be slightly more proactive."
+        }
+      },
+      {
+        "tweet_id": "2905949",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply acknowledges the issue politely and promises follow\u2011up, but could be"
+        }
+      },
+      {
+        "tweet_id": "28527",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 5,
+          "rationale": "The reply directly addresses the standby request, stays factual, maintains a"
+        }
+      },
+      {
+        "tweet_id": "1740030",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly addresses the request, asks only for necessary information, uses a friendly professional tone, and provides a clear next step."
+        }
+      },
+      {
+        "tweet_id": "1192347",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 4,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply is pertinent"
+        }
+      },
+      {
+        "tweet_id": "2894094",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly addresses the voucher request, stays factual, uses a courteous tone, and clearly asks for"
+        }
+      },
+      {
+        "tweet_id": "1877942",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 4,
+          "tone": 5,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply directly addresses the request with a clear, professional instruction, though the specific \u201cMerge Accounts\u201d option may not be exact, keeping it mostly"
+        }
+      },
+      {
+        "tweet_id": "2522787",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 2,
+          "tone": 4,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "2709303",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": null,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "1289129",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 3,
+          "actionability": 2,
+          "overall": 3,
+          "rationale": "The response"
+        }
+      },
+      {
+        "tweet_id": "1179762",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 3,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "494337",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": "The reply"
+        }
+      },
+      {
+        "tweet_id": "1784846",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 5,
+          "overall": 4,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "551361",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "escalate",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply acknowledges the complaint, stays factual, uses a courteous tone, and promises a follow\u2011up, though it could be"
+        }
+      },
+      {
+        "tweet_id": "104242",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "escalate",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 4,
+          "overall": 5,
+          "rationale": "The reply directly acknowledges the user's grief and voucher issue, stays factual, uses a compassionate tone, and gives a clear next step (DM with details), though it could be slightly"
+        }
+      },
+      {
+        "tweet_id": "602864",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply acknowledges"
+        }
+      },
+      {
+        "tweet_id": "2818218",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": "The reply addresses the complaint and promises a concrete action, stays factual and polite,"
+        }
+      },
+      {
+        "tweet_id": "986510",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly acknowledges the complaint, stays factual, uses a courteous and empathetic tone, and provides a clear next"
+        }
+      },
+      {
+        "tweet_id": "2635782",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The response directly addresses the delay issue, stays factual, conveys empathy, and gives a clear next step for the customer."
+        }
+      },
+      {
+        "tweet_id": "1786717",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": null,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "102272",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 3,
+          "actionability": 5,
+          "overall": 4,
+          "rationale": "The reply addresses the complaint and offers a clear next step, but it could show more empathy toward the frustrated customer."
+        }
+      },
+      {
+        "tweet_id": "2720861",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply directly answers the customer's question with accurate"
+        }
+      },
+      {
+        "tweet_id": "909836",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 2,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 3,
+          "rationale": "The reply politely offers a support channel but does not address the specific question about when the Skym"
+        }
+      },
+      {
+        "tweet_id": "1627415",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 3,
+          "groundedness": 4,
+          "tone": 4,
+          "actionability": 3,
+          "overall": 3,
+          "rationale": "The reply is moderately relevant and empathetic but lacks a direct acknowledgement of the airport closure and provides only vague next steps, limiting its overall effectiveness."
+        }
+      },
+      {
+        "tweet_id": "2816761",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 3,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply acknowledges the complaint and promises follow\u2011up, but the tone feels a bit generic and the thank\u2011"
+        }
+      },
+      {
+        "tweet_id": "772352",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 2,
+          "groundedness": 5,
+          "tone": 3,
+          "actionability": 2,
+          "overall": 3,
+          "rationale": "The reply acknowledges frustration but is overly generic, offers no specific next steps, and doesn\u2019t directly address the user\u2019s complaint about the call experience."
+        }
+      },
+      {
+        "tweet_id": "1188137",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": "The reply appropriately acknowledges the praise and maintains a friendly tone, but it offers no concrete next step for the customer."
+        }
+      },
+      {
+        "tweet_id": "2079221",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "escalate",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 4,
+          "rationale": "The reply addresses the customer's complaint"
+        }
+      },
+      {
+        "tweet_id": "611555",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": null,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "303564",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply directly addresses the request, makes no unsupported claims, is courteous, and gives a clear next step, though the tone could be slightly more empathetic and the action could be more specific."
+        }
+      },
+      {
+        "tweet_id": "361485",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The response is relevant, fact\u2011based, politely phrased, and gives a clear next step, though it could be slightly more specific or empathetic."
+        }
+      },
+      {
+        "tweet_id": "1926729",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly addresses the complaint, stays factual, shows empathy, and gives a clear next step for the customer to resolve the issue."
+        }
+      },
+      {
+        "tweet_id": "2977648",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 1,
+          "groundedness": 5,
+          "tone": 1,
+          "actionability": 1,
+          "overall": 1,
+          "rationale": "The reply contains unrelated symbols and does not address the customer's problem, offering no actionable assistance."
+        }
+      },
+      {
+        "tweet_id": "328838",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply directly"
+        }
+      },
+      {
+        "tweet_id": "1017565",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 5,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "2029639",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "escalate",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly acknowledges the double\u2011charge"
+        }
+      },
+      {
+        "tweet_id": "2224521",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 2,
+          "groundedness": 5,
+          "tone": 3,
+          "actionability": 2,
+          "overall": 3,
+          "rationale": "The reply is polite but largely generic, fails to directly address"
+        }
+      },
+      {
+        "tweet_id": "2898901",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply directly addresses the complaint, stays factual, shows empathy, and gives a clear next step, though it could be slightly more personalized and"
+        }
+      },
+      {
+        "tweet_id": "1531517",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 3,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 2,
+          "overall": 3,
+          "rationale": "The reply is polite and"
+        }
+      },
+      {
+        "tweet_id": "2638720",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply addresses the problem and politely asks for needed details, stays factual, uses a friendly tone, and provides a clear next step, though it could be slightly more specific about how to"
+        }
+      },
+      {
+        "tweet_id": "742549",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 4,
+          "tone": 3,
+          "actionability": 4,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "292944",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": "The reply addresses the complaint and promises to check the bag\u2019s status"
+        }
+      },
+      {
+        "tweet_id": "248767",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": "The reply directly answers the question with accurate information in a polite tone, but it lacks a"
+        }
+      },
+      {
+        "tweet_id": "2597433",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "547242",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 2,
+          "overall": 4,
+          "rationale": "The reply is fully relevant, fact\u2011based, and warm, but it offers no concrete next step, so its actionability is limited."
+        }
+      },
+      {
+        "tweet_id": "1505717",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 3,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply is polite and asks for needed information, but it only loosely addresses the specific grievance about the 6,000\u2011mile offer under the"
+        }
+      },
+      {
+        "tweet_id": "2666143",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 3,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 3,
+          "rationale": "The response acknowledges the travel\u2011credit issue and asks for needed details, but it ignores the user's frustration"
+        }
+      },
+      {
+        "tweet_id": "2252132",
+        "intent_pred": "unclassified",
+        "escalation_pred": "escalate",
+        "judge_scores": {
+          "relevance": 1,
+          "groundedness": 5,
+          "tone": 1,
+          "actionability": 1,
+          "overall": 1,
+          "rationale": "An empty reply fails to address the customer's praise, offers no tone or next steps, though it contains no false information."
+        }
+      },
+      {
+        "tweet_id": "1835341",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly addresses the user's problem, provides accurate information, uses a courteous tone, and gives a clear, actionable request for the booking reference along"
+        }
+      },
+      {
+        "tweet_id": "2945031",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "escalate",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "1013134",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 3,
+          "groundedness": 5,
+          "tone": 4,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "2080234",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 5,
+          "rationale": "The reply directly addresses the customer's delay, stays factual, uses a courteous tone, and provides a clear next step (requesting"
+        }
+      },
+      {
+        "tweet_id": "1972246",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": "The reply addresses the complaint and stays factual and polite, but it offers only a vague next step without specifying what the customer should do or a concrete timeline."
+        }
+      },
+      {
+        "tweet_id": "2334714",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 3,
+          "groundedness": 4,
+          "tone": 4,
+          "actionability": 2,
+          "overall": 3,
+          "rationale": "The reply acknowledges the issue and offers general steps, but it\u2019s incomplete and lacks clear, specific instructions to resolve the double charge and upgrade problem."
+        }
+      },
+      {
+        "tweet_id": "1013903",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "2060128",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly addresses the customer's complaint, stays factual, uses a courteous and empathetic tone, and clearly requests needed details"
+        }
+      },
+      {
+        "tweet_id": "1242349",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 2,
+          "tone": 4,
+          "actionability": 3,
+          "overall": 3,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "2511264",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": null,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "1555189",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 2,
+          "overall": 4,
+          "rationale": "The reply is friendly, accurate"
+        }
+      },
+      {
+        "tweet_id": "2438885",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "overall": 5,
+          "rationale": "The reply directly answers the query, provides accurate information, uses a courteous"
+        }
+      },
+      {
+        "tweet_id": "608638",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 3,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply is polite and asks for needed details, but the original tweet only contained a link, so the relevance is only moderate."
+        }
+      },
+      {
+        "tweet_id": "1606594",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 5,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "579527",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "1591915",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 3,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 2,
+          "overall": 3,
+          "rationale": "The reply acknowledges the complaint politely but is generic, offers no specific next steps, and doesn\u2019t address the particular issues raised."
+        }
+      },
+      {
+        "tweet_id": "2643387",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 4,
+          "overall": 4,
+          "rationale": "The reply addresses the customer's frustration about the delayed flight and missed Skyclub access, stays fact\u2011based, uses a courteous tone, and gives a clear next"
+        }
+      },
+      {
+        "tweet_id": "2786706",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 4,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": "The reply acknowledges the concern and forwards it"
+        }
+      },
+      {
+        "tweet_id": "1621998",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 3,
+          "groundedness": 5,
+          "tone": 3,
+          "actionability": 3,
+          "rationale": ""
+        }
+      },
+      {
+        "tweet_id": "2392997",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle",
+        "judge_scores": {
+          "relevance": 4,
+          "groundedness": 5,
+          "tone": 5,
+          "actionability": 3,
+          "overall": 4,
+          "rationale": "The reply appropriately acknowledges the praise with a friendly tone, stays factual, but offers no concrete next step or further engagement."
+        }
+      }
+    ],
+    "trivial_baseline": [
+      {
+        "tweet_id": "312452",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2610070",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "864657",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "257289",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1718863",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "359591",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "153927",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1943296",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "840931",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2653492",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2046569",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1688754",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "529252",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2567306",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1711516",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1194072",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2072521",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "656730",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "102256",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1953182",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2401852",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2600419",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1153993",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1013102",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1644749",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2780902",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1023114",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2283673",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "714278",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2848442",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "413156",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2785172",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1416149",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "761362",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1476651",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2698310",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2872908",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1202935",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2522765",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "344676",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1559179",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2736723",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1814411",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "452185",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2756008",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "289147",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2244057",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "442335",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2653651",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "738310",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2444424",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "278105",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2069797",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1924884",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "796635",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2386695",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "761312",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "334194",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1507186",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1646887",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1591181",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1537844",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "764245",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "982157",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "200591",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1185899",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "478232",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1793532",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "57075",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2898355",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1858265",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1644744",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1939929",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2385888",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2467779",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "268247",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1937884",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "319210",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1498484",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1023893",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1067020",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2962089",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2681800",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1939406",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1732721",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "994582",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2050012",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "893534",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2928717",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1462670",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2862818",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "157114",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1645689",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1546094",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2258192",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1409915",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2039156",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2901272",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "757212",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "634194",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1176033",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2496956",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2967174",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "508962",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "233906",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1640455",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "302330",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "939371",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2965925",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1225371",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1688743",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2324723",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "931877",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1510075",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2669447",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1445786",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "594138",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1075578",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1022954",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "398885",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2986622",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2082792",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "430809",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1460051",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2859356",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "79594",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "819565",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "413183",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "903849",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "311089",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2031393",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1185905",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1294193",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1538173",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2703399",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "774279",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "149642",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1592165",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "859091",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "718134",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2809114",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1011949",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1344817",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "207195",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2433244",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1009250",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2584667",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1249531",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1655188",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2905949",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "28527",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1740030",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1192347",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2894094",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1877942",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2522787",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2709303",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1289129",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1179762",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "494337",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1784846",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "551361",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "104242",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "602864",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2818218",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "986510",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2635782",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1786717",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "102272",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2720861",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "909836",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1627415",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2816761",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "772352",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1188137",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2079221",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "611555",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "303564",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "361485",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1926729",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2977648",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "328838",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1017565",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2029639",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2224521",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2898901",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1531517",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2638720",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "742549",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "292944",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "248767",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2597433",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "547242",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1505717",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2666143",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2252132",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1835341",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2945031",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1013134",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2080234",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1972246",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2334714",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1013903",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2060128",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1242349",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2511264",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1555189",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2438885",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "608638",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1606594",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "579527",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1591915",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2643387",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2786706",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1621998",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2392997",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      }
+    ],
+    "simple_baseline": [
+      {
+        "tweet_id": "312452",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2610070",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "864657",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "257289",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1718863",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "359591",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "153927",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1943296",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "840931",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2653492",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2046569",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1688754",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "529252",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2567306",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1711516",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1194072",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2072521",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "escalate"
+      },
+      {
+        "tweet_id": "656730",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "102256",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1953182",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2401852",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2600419",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1153993",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1013102",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1644749",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2780902",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1023114",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2283673",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "714278",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2848442",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "413156",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2785172",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1416149",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "761362",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1476651",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2698310",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2872908",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1202935",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2522765",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "344676",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1559179",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2736723",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1814411",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "452185",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2756008",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "escalate"
+      },
+      {
+        "tweet_id": "289147",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2244057",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "442335",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2653651",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "738310",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2444424",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "278105",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2069797",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1924884",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "796635",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2386695",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "761312",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "334194",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1507186",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1646887",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1591181",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1537844",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "764245",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "982157",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "200591",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1185899",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "478232",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1793532",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "57075",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2898355",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1858265",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1644744",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "escalate"
+      },
+      {
+        "tweet_id": "1939929",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2385888",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2467779",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "268247",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1937884",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "319210",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1498484",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1023893",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1067020",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2962089",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2681800",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1939406",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1732721",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "994582",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2050012",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "893534",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2928717",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1462670",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2862818",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "157114",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1645689",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1546094",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2258192",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1409915",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "escalate"
+      },
+      {
+        "tweet_id": "2039156",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2901272",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "757212",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "634194",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1176033",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2496956",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2967174",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "508962",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "233906",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1640455",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "302330",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "939371",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2965925",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1225371",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1688743",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2324723",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "escalate"
+      },
+      {
+        "tweet_id": "931877",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1510075",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2669447",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1445786",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "594138",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1075578",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1022954",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "398885",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2986622",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2082792",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "430809",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1460051",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2859356",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "79594",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "819565",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "413183",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "903849",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "311089",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2031393",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1185905",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1294193",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "escalate"
+      },
+      {
+        "tweet_id": "1538173",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "escalate"
+      },
+      {
+        "tweet_id": "2703399",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "774279",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "149642",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1592165",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "859091",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "718134",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2809114",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1011949",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1344817",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "207195",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2433244",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1009250",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2584667",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1249531",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1655188",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2905949",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "28527",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1740030",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1192347",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2894094",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1877942",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2522787",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2709303",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1289129",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1179762",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "494337",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1784846",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "551361",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "104242",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "602864",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2818218",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "986510",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2635782",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1786717",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "102272",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2720861",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "909836",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1627415",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2816761",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "772352",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1188137",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2079221",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "escalate"
+      },
+      {
+        "tweet_id": "611555",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "303564",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "361485",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1926729",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2977648",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "328838",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1017565",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2029639",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2224521",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2898901",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1531517",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2638720",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "742549",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "292944",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "248767",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2597433",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "547242",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1505717",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2666143",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2252132",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1835341",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2945031",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "escalate"
+      },
+      {
+        "tweet_id": "1013134",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2080234",
+        "intent_pred": "rebooking_connection",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1972246",
+        "intent_pred": "checkin_seat_upgrade",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2334714",
+        "intent_pred": "refund_compensation",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1013903",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2060128",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1242349",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2511264",
+        "intent_pred": "baggage_lost_item",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1555189",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2438885",
+        "intent_pred": "loyalty_miles_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "608638",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1606594",
+        "intent_pred": "general_policy_info",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "579527",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1591915",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2643387",
+        "intent_pred": "flight_delay_status",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2786706",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "1621998",
+        "intent_pred": "service_complaint",
+        "escalation_pred": "auto_handle"
+      },
+      {
+        "tweet_id": "2392997",
+        "intent_pred": "praise_or_noise",
+        "escalation_pred": "auto_handle"
+      }
+    ]
+  }
+}
